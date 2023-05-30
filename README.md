@@ -25,16 +25,12 @@ Exchange rates            |  Calculations          |  Settings
 
 
 # How to install
-Do not try to download .zip archive - it won't work. 
-This git repository use git large file storage (`git lfs`) and without some files from there application will not launch :(
 
-Instead of downloading .zip archive, do some steps below:
-1. Open Terminal.app (or any other app you use to access terminal on macOS).
-2. Open directory where you wish to have this project located.
-3. Execute this line:  `git lfs clone https://github.com/vlsok/FinCalc`
-4. Wait a little bit :)
-
-If you haven't used git large file storage yet, then read [this article](https://git-lfs.com) and install `git lfs` first.
+Follow these steps:
+1. Download this project on your mac (.zip-archive or using `git clone https://github.com/vlsok/FinCalc`).
+2. Open Terminal.app (or any other app you use to access terminal on macOS), write and execute a path to FinCalc folder, which contains `Podfile` (for example, `~/Desktop/FinCalc-main-4/FinCalc`)
+3. Execute `pod install`.
+4. Open `FinCalc.xcworkspace` file in order to reach full program and launch application on your iPhone or Simulator.
 
 
 
