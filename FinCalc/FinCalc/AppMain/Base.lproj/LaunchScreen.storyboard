@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--LaunchScreen-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController title="LaunchScreen" id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LqU-0c-fw4">
+                                <rect key="frame" x="78.666666666666686" y="245" width="235.66666666666663" height="255.66666666666663"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Text" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JO6-yW-h6j">
+                                <rect key="frame" x="118" y="525.66666666666663" width="157" height="42.333333333333371"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="AccentColor"/>
+                        <constraints>
+                            <constraint firstItem="LqU-0c-fw4" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="1Uj-aX-TgO"/>
+                            <constraint firstItem="LqU-0c-fw4" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="0.85" id="5mp-Za-Rjd"/>
+                            <constraint firstItem="LqU-0c-fw4" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.6" id="Nyo-m0-uzX">
+                                <variation key="heightClass=compact-widthClass=compact" constant="-200"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="-270"/>
+                            </constraint>
+                            <constraint firstItem="JO6-yW-h6j" firstAttribute="centerX" secondItem="LqU-0c-fw4" secondAttribute="centerX" id="OoH-5M-s4a"/>
+                            <constraint firstItem="LqU-0c-fw4" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Xaq-zg-hEp"/>
+                            <constraint firstItem="LqU-0c-fw4" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.3" id="YQ8-Vo-3wd">
+                                <variation key="heightClass=compact-widthClass=compact" constant="50"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="60"/>
+                            </constraint>
+                            <constraint firstItem="JO6-yW-h6j" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.4" id="anj-17-Q8j">
+                                <variation key="heightClass=compact-widthClass=compact" constant="-150"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="-180"/>
+                            </constraint>
+                            <constraint firstItem="JO6-yW-h6j" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.05" id="gMi-bs-Rrf">
+                                <variation key="heightClass=compact-widthClass=compact" constant="15"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="15"/>
+                            </constraint>
+                            <constraint firstItem="JO6-yW-h6j" firstAttribute="top" secondItem="LqU-0c-fw4" secondAttribute="bottom" constant="25" id="y9Y-ut-fMO"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="51.145038167938928" y="373.94366197183098"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Icon" width="479" height="500"/>
+        <image name="Text" width="332" height="98"/>
+        <namedColor name="AccentColor">
+            <color red="0.72941176470588232" green="0.80392156862745101" blue="0.89411764705882357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
